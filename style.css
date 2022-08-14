@@ -421,10 +421,10 @@ blockquote p {
 }
 
 .navigation a {
-  font-size: .8em;
+  font-size: .3em;
   display: block;
   margin-left: 20px;
-  padding-bottom: 3px;
+  padding-bottom: 4px;
   color: #fff;
 }
 
