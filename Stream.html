@@ -1,9 +1,3 @@
-<!doctype html>
-<!--
-	originally The7 by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
     <head>
         <meta charset="utf-8">
@@ -37,23 +31,27 @@
             <header id="top-header" class="header-home">
                 <h1 style="background-color:grey;margin-top:-1%;">
                     <!--increase header size-->
+                
                 <div class="grid">
                     <div class="col-1-1">
                         <div class="content">
                         
-           
-                            <a href="index.html">
-                            <img src="https://media.discordapp.net/attachments/941511279489732678/1002704874405892116/Artboard_14x.png?width=60&height=60" style="position: relative; bottom: -6px;right: -6px;"/>
-                            <nav class="navigation">
-                    
-                                <input type="checkbox" id="nav-button">
-                                <label for="nav-button" onclick></label>
-                                <ul class="nav-container">
-                                    <li><a href="#home" class="current"></a></li>
-                                    <li><a href="casino.html">Casino</a></li>
-                                    <li><a href="Stream.html">Stream</a></li>
-                                    <li><a href="clips.html">Clips</a></li>
-                                    <li><a href="about.html">About</a></li>
+                            <style>
+
+                              </style>
+                              
+                              <a href="index.html">
+                                <img src="https://media.discordapp.net/attachments/941511279489732678/1002704874405892116/Artboard_14x.png?width=60&height=60" style="position: relative; bottom: -6px;right: -6px;"/>
+                                <nav class="navigation">
+                        
+                                    <input type="checkbox" id="nav-button">
+                                    <label for="nav-button" onclick></label>
+                                    <ul class="nav-container">
+                                        <li><a href="#home" class="current"></a></li>
+                                        <li><a href="casino.html">Casino</a></li>
+                                        <li><a href="Stream.html">Stream</a></li>
+                                        <li><a href="clips.html">Clips</a></li>
+                                        <li><a href="about.html">About</a></li>
                                     
                                 </ul>
                             </nav>
@@ -63,6 +61,30 @@
             </header>
             <!-- End Header -->
 
+             <!-- Services Section -->
+             <div class="wrap services-wrap" id="services">
+                <section class="grid grid-pad services">
+                    <div class="col-1-6 service-box service-1" >
+                        <!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+<p style="text-align: center;">
+    <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "jolly_jimmy"
+  });
+</script>
+       
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- End Services Section -->
 
                 <!-- JS -->
                 <script src="js/jquery.js"></script>
